@@ -1,1 +1,22 @@
+# Claude Code
 /.claude
+
+# Lua
+*.luac
+luac.out
+
+# Editor
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+
+# Test files
+*.fits
+*.fit
+*.fts
+test/
