@@ -32,15 +32,11 @@ cp -r fits-preview.yazi ~/.config/yazi/plugins/fits-preview.yazi
 
 ```toml
 [[plugin.prepend_previewers]]
-name = "*.fits"
+url = "*.fits"
 run = "fits-preview"
 
 [[plugin.prepend_previewers]]
-name = "*.fit"
-run = "fits-preview"
-
-[[plugin.prepend_previewers]]
-name = "*.fts"
+url = "*.fit"
 run = "fits-preview"
 ```
 
@@ -229,7 +225,7 @@ MIT License
 
 ## 作者
 
-chenxu
+cxwx using glm-5
 
 ## 相关链接
 
