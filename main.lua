@@ -178,7 +178,7 @@ M.metadata = {
 	name = "fits-preview",
 	description = "Preview FITS files using fitsheader command",
 	version = "0.1.0",
-	author = "chenxu",
+	author = "cxwx",
 	dependencies = { "fitsheader" },
 }
 
